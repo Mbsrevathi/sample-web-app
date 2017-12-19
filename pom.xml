@@ -16,6 +16,18 @@
     </dependency>
   </dependencies>
   <build>
+<plugins>
+<plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+                <url>http://35.227.102.59:8092/manager/text</url>
+                <server>TomcatServer</server>
+                <path>/webapp-dev</path>
+        </configuration>
+</plugin>
+</plugins>
     <finalName>WebApp</finalName>
   </build>
 </project>
