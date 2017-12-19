@@ -22,9 +22,9 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-                <url>http://35.227.7.244:8080/manager/text</url>
+                <url>http://35.227.102.59:8091/manager/text</url>
                 <server>TomcatServer</server>
-                <path>/mkyongWebApp</path>
+                <path>/webapp-dev</path>
         </configuration>
 </plugin>
 </plugins>
